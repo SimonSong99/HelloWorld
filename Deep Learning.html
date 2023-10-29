@@ -295,7 +295,7 @@ img {
 <h2>目录</h2>
 <h2><strong>2023/10/28</strong><br></h2>
 <h3>查询ChatGpt，制定学习计划</h3>
-<p>详情如下<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>  <br></p>
+<p>详情如下 <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>  <br></p>
 <ol>
 <li>
 <p><strong>理解基本概念</strong><br>在开始学习CNN之前，建议您先熟悉基本的机器学习和神经网络概念。了解神经网络的基本结构、权重和偏差、激活函数等会为理解CNN奠定基础。</p>
@@ -321,11 +321,11 @@ img {
 </ol>
 <p><br><br><br></p>
 <h3>基本概念</h3>
-<h4>机器学习与神经网络相关概念<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></h4>
+<h4>机器学习与神经网络相关概念 <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></h4>
 <p><strong>神经网络</strong>是进行<strong>机器学习</strong>的方式之一，也是目前使用最广泛的方式。
 机器学习的目的是根据已有的数据来预测未知的结果。
 通过已有的数据建立模型，在模型下进行预测，模型的可靠性决定预测结果的准确率。</p>
-<p><strong>神经网络基础结构</strong><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>
+<p><strong>神经网络基础结构</strong> <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>
 如何建立更优的模型，是机器学习主要关注的问题。
 神经网络模拟人脑处理数据的过程，将数据作为输入，每一层对数据的处理类比为神经元之间信息的加工传递。</p>
 <p><strong>权重：</strong>表示不同特征对于结果的影响大小，用w表示。<br>
@@ -351,7 +351,7 @@ img {
 正向传播自下向上进行计算，即先计算第一层再计算第二层，再计算第三层，最后得到结果。<br>
 <strong>反向模式：</strong>先通过正向遍历计算图求出每个节点的值，然后通过反向遍历整个图，计算出每个节点的偏导</p>
 <p><br><br><br></p>
-<h3>CNN原理<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></h3>
+<h3>CNN原理 <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></h3>
 <p><strong>CNN架构</strong>简单来说就是：图片经过各两次的Convolution，Pooling，Fully Connected就是CNN的架构了，因此只要搞懂Convolution，Pooling，Fully Connected三个部分的内容就可以完全掌握了CNN。
 <br></p>
 <p><strong>1.</strong> <strong>Convolution Layer卷积层</strong><br>
@@ -366,7 +366,7 @@ img {
 <strong>Stride：</strong> 步长，filter矩阵在输入矩阵上每次滑动的距离。步长越大，最终得到的特征图越小。<br>
 <strong>Zero-padding：</strong> 补零操作，在原始矩阵周围补0。添加补0的卷积叫wide convolution，不添加补0的卷积叫 narrow convolution。<br>
 <strong>非线性(ReLU)：</strong> ReLU作用于卷积后得到的特征图。将矩阵中的负数替换为0。ReLU为卷积神经网络引入非线性。真实世界里的数据绝大多数是非线性的（卷积是一种线性操作）。<br></p>
-<p><strong>2.</strong> ** Pooling Layer 池化层**<br>
+<p><strong>2.</strong> <strong>Pooling Layer 池化层</strong><br>
 <strong>目的:</strong> 在卷积层之后，通常在CNN层之间添加池化层。池化的功能是不断降低维数，以减少网络中的参数和计算次数。这缩短了训练时间并控制过度拟合。
 <br><br>
 <strong>池化过程</strong> <br>
@@ -387,7 +387,7 @@ img {
 对分类任务来说，使用卷积和池化层输出的特征就已经能取得不错的结果，但是把这些特征组合到一起，效果会更好。<br>
 全连接层输出的分类概率之和为1。这是由softmax保证的。</p>
 <p><br><br><br></p>
-<h3>深度学习框架<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup></h3>
+<h3>深度学习框架 <sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup></h3>
 <p><strong>1.</strong> <strong>Theano</strong><br>
 <strong>第一个Python深度学习框架</strong><br></p>
 <p><strong>2.</strong> <strong>TensorFlow</strong><br>
@@ -411,10 +411,84 @@ Caffe是基于C++编写的深度学习框架，并提供了命令行工具以及
 <p><strong>Caffe一直是深度学习研究者使用的框架，很多研究人员在上面进行开发和优化，因而有了不少沉淀，因此Caffe也是流行的深度学习框架之一。</strong>
 尽管如此，Caffe也存在不支持多机、跨平台、可扩展性差等问题。</p>
 <p><br><br><br></p>
-<h3>深度学习框架PyTorch安装<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup></h3>
+<h3>深度学习框架PyTorch安装 <sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup></h3>
 <p><strong>1.</strong> <strong>安装Anaconda</strong><br></p>
 <p><strong>2.</strong> <strong>安装CUDA</strong><br></p>
+<p><strong>3.</strong> <strong>安装pytorch</strong><br><br><br><br><br></p>
+<h2 id="6"><strong>2023/10/28</strong><br></h2>
+<h3>深度学习框架PyTorch安装及环境配置（GPU版） <sup id="fnref:7"><a href="#fn:7" rel="footnote">7</a></sup></h3>
+<p><strong>1.</strong> <strong>安装Anaconda</strong><br>
+点击<a href="https://www.anaconda.com/download/" title="Anaconda官网">官网</a>直接下载安装<br>
+创建虚拟环境:</p>
+<pre><code>conda env list
+conda create –n 虚拟环境名字 python=版本
+</code></pre>
+
+<p><strong>2.</strong> <strong>安装CUDA</strong><br></p>
 <p><strong>3.</strong> <strong>安装pytorch</strong><br></p>
+<pre><code>conda config --show
+conda config --get
+</code></pre>
+
+<blockquote>
+<p>下面是一些镜像地址</p>
+<table>
+<thead>
+<tr>
+	<th align="center">镜像名</th>
+	<th align="center">用于创建环境镜像地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td align="center">清华镜像</td>
+	<td align="center">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main</td>
+</tr>
+<tr>
+	<td align="center">北京外国语大学镜像</td>
+	<td align="center">https://mirrors.bfsu.edu.cn/anaconda/pkgs/main</td>
+</tr>
+<tr>
+	<td align="center">阿里巴巴镜像</td>
+	<td align="center">http://mirrors.aliyun.com/anaconda/pkgs/main</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>添加通道</p>
+<pre><code>conda config --add channels 通道地址
+</code></pre>
+
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>删除通道</p>
+<pre><code>conda config --remove channels 通道地址
+</code></pre>
+
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>若在虚拟环境yolov8中安装，需要先运行</p>
+<pre><code>conda activate yolov8
+</code></pre>
+
+</blockquote>
+<p><br>
+<strong>pytorch安装</strong> <br>
+采用<strong>pip安装法</strong>，进入<a href="https://pytorch.org/" title="pytorch官网">pytorch官网</a><br>
+选择安装软件版本，直接copy链接至anaconda窗口运行<br></p>
+<p><strong>验证pytorch是否安装成功</strong></p>
+<blockquote>
+<p>激活对应的虚拟环境<code>conda activate 虚拟环境名</code></p>
+<p>输入<code>pip list</code>或者<code>conda list</code>，看有没有pytorch或者torch</p>
+</blockquote>
+<p><br>
+<strong>pycharm安装与配置</strong>
+进入<a href="https://www.jetbrains.com/pycharm/" title="pycharm官网">pycharm官网</a>，下载社区版，注意路径全英文。</p>
+<p><br><br><br><br></p>
 
 <div class="footnotes">
 <hr />
@@ -436,6 +510,9 @@ Caffe是基于C++编写的深度学习框架，并提供了命令行工具以及
 </li>
 <li id="fn:6">
 <p><a href="https://blog.csdn.net/weixin_44904136/article/details/123285884?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169850051216800182721287%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=169850051216800182721287&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-123285884-null-null.142^v96^pc_search_result_base4&amp;utm_term=PyTorch&amp;spm=1018.2226.3001.4187" title="CSDN:深度学习框架PyTorch安装">CSDN:深度学习框架PyTorch安装</a>&nbsp;<a href="#fnref:6" rev="footnote">&#8617;</a></p>
+</li>
+<li id="fn:7">
+<p><a href="https://blog.csdn.net/weixin_44752340/article/details/130542629?spm=1001.2101.3001.6650.6&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-130542629-blog-123285884.235%5Ev38%5Epc_relevant_anti_t3&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-6-130542629-blog-123285884.235%5Ev38%5Epc_relevant_anti_t3&amp;utm_relevant_index=13" title="CSDN:深度学习框架PyTorch安装详细版">CSDN:深度学习框架PyTorch安装详细版</a>&nbsp;<a href="#fnref:7" rev="footnote">&#8617;</a></p>
 </li>
 </ol>
 </div>
